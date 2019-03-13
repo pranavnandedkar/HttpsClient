@@ -9,3 +9,4 @@ https://www.javacodegeeks.com/2013/06/java-security-tutorial-step-by-step-guide-
 
 keytool command
 https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html
+https://dzone.com/articles/understand-java-keytool-keystore-commands
