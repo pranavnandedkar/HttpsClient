@@ -1,5 +1,16 @@
 # HttpsClient
 
+
+
+# VM Params
+-Djavax.net.ssl.trustStore=/apps/home/eng/ssl/trust_store
+-Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true
+
+
+
+
+Refs
+
 https://stackoverflow.com/a/31017426/10145608
 https://stackoverflow.com/questions/19540289/how-to-fix-the-java-security-cert-certificateexception-no-subject-alternative/31017426#31017426
 https://java.globinch.com/enterprise-java/security/fix-java-security-certificate-exception-no-matching-localhost-found/
