@@ -10,3 +10,11 @@ https://www.javacodegeeks.com/2013/06/java-security-tutorial-step-by-step-guide-
 keytool command
 https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html
 https://dzone.com/articles/understand-java-keytool-keystore-commands
+
+
+
+
+Apache httpclient 
+https://www.mkyong.com/java/apache-httpclient-examples/
+https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5.7
+https://www.vogella.com/tutorials/ApacheHttpClient/article.html
