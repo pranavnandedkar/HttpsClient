@@ -9,9 +9,19 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 
 public class ApacheHTTPClient {
+  
+  static {
+  javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier(
+      new javax.net.ssl.HostnameVerifier(){
+        public boolean verify(String hostname,
+            javax.net.ssl.SSLSession sslSession) {
+          return hostname.equals("hostname to check");
+        }
+      });
+  }
   public static void main(String[] args) {
     try {
-      String url = "https://www.google.com/search?q=httpClient";
+      String url = "Url with FQDN"
 
       HttpClient client = HttpClientBuilder.create().build();
       HttpGet request = new HttpGet(url);
