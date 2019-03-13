@@ -20,7 +20,7 @@ public class HttpsClient{
         new javax.net.ssl.HostnameVerifier(){
           public boolean verify(String hostname,
               javax.net.ssl.SSLSession sslSession) {
-            return hostname.equals("nw-htlpriceguide-q01");
+            return hostname.equals("hostname");
           }
         });
 
@@ -100,7 +100,7 @@ public class HttpsClient{
         e.printStackTrace();
       }
 
-    }
+    } 
 
   }
 
